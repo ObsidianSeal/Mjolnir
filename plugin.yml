@@ -1,0 +1,20 @@
+name: Mjolnir
+description: Mjölnir bestows the wielder with the gift of flight and the ability to control lightning.
+version: '${project.version}'
+main: page.pinniped.mjolnir.Mjolnir
+api-version: 1.18
+author: Obsidian_Seal
+website: pinniped.page
+
+commands:
+  Mjolnir:
+    description: Gives a player Mjölnir.
+    permission: mjolnir.mjolnir
+
+permissions:
+  mjolnir.mjolnir:
+    description: Allows the player to use /mjolnir.
+  mjolnir.use:
+    description: Allows the player to use Mjölnir's special powers.
+  mjolnir.have:
+    description: Allows the player to have Mjölnir.
